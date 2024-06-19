@@ -19,8 +19,9 @@ pip install opencv-python ultralytics supervision
 
 
 ## Configuration
-1. YOLOv10 Model: Ensure you have the best.pt weights file for the YOLOv10 model. You can train the model on your own data or download a pre-trained model.
-2. RTSP URL: Insert your camera's RTSP URL into the code.
+1. YOLOv10 Model: Ensure you have the best.pt weights file for the YOLOv10 model.
+   This is model trained with my date. You can train the model on your own data or download a pre-trained model.
+3. RTSP URL: Insert your camera's RTSP URL into the code.
 
 ## Training YOLOv10
 
