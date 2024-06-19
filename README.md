@@ -8,7 +8,7 @@ Questo progetto utilizza un modello YOLOv10 per rilevare persone in tempo reale 
 Assicurati di avere i seguenti pacchetti installati:
 
 - `opencv-python`
-- `ultralytics`
+- `ultralytics` -----> pip install -q git+https://github.com/THU-MIG/yolov10.git
 - `supervision`
 
 Puoi installarli usando `pip`:
