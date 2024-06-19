@@ -1,7 +1,7 @@
 
 # Real-Time Person Detection via RTSP Stream
 
-This project utilizes a YOLOv10 model to detect people in real-time from an RTSP video stream.
+This project utilizes a trained YOLOv10 model to detect people in real-time from an RTSP video stream.
 
 ## Requirements
 
@@ -21,6 +21,11 @@ pip install opencv-python ultralytics supervision
 ## Configuration
 1. YOLOv10 Model: Ensure you have the best.pt weights file for the YOLOv10 model. You can train the model on your own data or download a pre-trained model.
 2. RTSP URL: Insert your camera's RTSP URL into the code.
+
+## Training YOLOv10
+
+This is the script for training your YOLOv10 model. Require a Roboflow account for data processing.
+<a>https://colab.research.google.com/drive/1wTKPzregHNyulhTbpeLGp-UiEmLemGdZ?usp=sharing</a>
 
 ## RTSP URL
 
